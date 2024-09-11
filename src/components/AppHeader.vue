@@ -1,10 +1,12 @@
 <script>
 export default {
+  name: "AppHeader",
   data() {
-    return { 
-      message:'Template Vite + Vue'
-    }
-  },
+      return {
+          message: 'Template Vite + Vue'
+      }
+  }
+
 }
 </script>
 
