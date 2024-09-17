@@ -7,7 +7,9 @@ Per importare ed utilizzare un componente dentro ad un altro devo SEMPRE seguire
 */
 
 //1. Importazione del componente
+import AppFooter from './components/AppFooter.vue';
 import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
 
 export default {
   data() {
@@ -17,7 +19,9 @@ export default {
   },
   // 2. Dichiarazione del componente
   components: {
-    AppHeader
+    AppHeader,
+    AppMain,
+    AppFooter
   }
 }
 </script>
