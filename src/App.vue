@@ -32,5 +32,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
+@use 'assets/scss/main.scss' as *;
+@import 'bootstrap/scss/bootstrap';
 </style>
